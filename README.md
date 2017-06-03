@@ -1,19 +1,19 @@
 # [Fmain](fmain.win)
 
-记录前端学习的过程
+#### 记录前端的学习过程
 
-- HTML5 + CSS3
+- [HTML5 + CSS3](./study/H5&CSS3/index.html)
 
-- JavaScript
+- [JavaScript](./study/JavaScript/index.html)
 
-- jQuery
+- [jQuery](./study/jQuery/index.html)
 
-- Vue.js
+- [Vue.js](./study/ue.js/index.html)
 
 ## About Me
 
     1. 目前在读大三,即将实习
-    2. 暂无开发经验
+    2. 除实验项目外暂无开发经验
     3. 邮箱：ukisssky@163.com
 
 ## Speciality
