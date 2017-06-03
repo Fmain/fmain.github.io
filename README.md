@@ -12,7 +12,7 @@
 
 ## About Me
 
-![](https://github.com/bhnddowinf/vuejs2-learn/blob/master/me.jpeg?raw=true)
+![](url)
 
     1. 目前在读大三,即将实习
     2. 暂无开发经验
