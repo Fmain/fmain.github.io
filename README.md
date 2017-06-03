@@ -1,23 +1,20 @@
-# for(main)
+# [Fmain](fmain.win)
 
-记录我前端学习的过程
+记录前端学习的过程
 
-- 1
+- HTML5 + CSS3
 
-- 2
+- JavaScript
 
-- 3
+- jQuery
 
-- 4
+- Vue.js
 
 ## About Me
-
-![](url)
 
     1. 目前在读大三,即将实习
     2. 暂无开发经验
     3. 邮箱：ukisssky@163.com
-    4.
 
 ## Speciality
 
@@ -27,7 +24,8 @@
 
 
 # h1
-
+## h2
 ### h3
-
+- li
 [text](url)
+![](url)
