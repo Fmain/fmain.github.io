@@ -1,1 +1,1 @@
-Sitemap: http://localhost:9526/sitemap.xml
+Sitemap: fmain.github.io/blog/sitemap.xml
