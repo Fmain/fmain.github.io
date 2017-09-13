@@ -56,7 +56,7 @@
     </ul> -->
 
     <!-- 首页第一个界面 -->
-    <div id="section0" class="section" data-name="bio">
+    <div id="section0" class="section" data-name="fmain">
         <!-- 导入common/notices.html -->
         <!--[if IE]>
     <p class="site-notice">您正在使用一个过时的网页浏览器。请<a href="http://browsehappy.com/" target="_blank">升级您的浏览器</a>或<a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">开启 Google Chrome Frame</a> 来提高用户体验。</p>
@@ -66,20 +66,29 @@
 </noscript>
 
         <div class="headings animated fadeInLeft">
-            <h1>Fmain</h1> <h2>是生唯心系一人足矣</h2> <div><a href="./home">Home</a> | <a href="./tags">Tags</a> | <a href="./about">About</a></div>
+            <h1>Fmain</h1> <h2>是生唯心系一人足矣</h2> <div><a href="./">Home</a> | <a href="./">Tags</a> | <a href="./">About</a></div>
         </div>
-        <a class="btn-continue animated bounce" title="更多" href="#social"></a>
+        <a class="btn-continue animated bounce" title="更多" href="#life"></a>
     </div>
-    <div id="section0" class="section" data-name="test">
+    <div id="section1" class="section" data-name="life">
         <h1>Life,</h1>
-        <a class="btn-continue animated bounce" title="更多" href="#social"></a>
+        <div class="headings animated fadeInLeft">
+            <div><a href="./">Home</a> | <a href="./">Tags</a> | <a href="./">About</a></div>
+        </div>
+        <a class="btn-continue animated bounce" title="更多" href="#memory"></a>
     </div>
-    <div id="section0" class="section" data-name="test">
+    <div id="section2" class="section" data-name="memory">
         <h1>Half is memory,</h1>
-        <a class="btn-continue animated bounce" title="更多" href="#social"></a>
+        <div class="headings animated fadeInLeft">
+            <div><a href="./">Home</a> | <a href="./">Tags</a> | <a href="./">About</a></div>
+        </div>
+        <a class="btn-continue animated bounce" title="更多" href="#continue"></a>
     </div>
-    <div id="section0" class="section" data-name="test">
+    <div id="section3" class="section" data-name="continue">
         <h1>Half is continue.</h1>
+        <div class="headings animated fadeInLeft">
+            <div><a href="./">Home</a> | <a href="./">Tags</a> | <a href="./">About</a></div>
+        </div>
     </div>
     <!-- 首页第二个界面 -->
     <!-- <div id="section1" class="section" data-name="social">
@@ -87,8 +96,8 @@
             <a class="btn-enter btn-light" title="进入博客" href="">进入博客</a>
         </h1>
         <div class="social-links animated hidden">
-            <a class="btn-light ico-rss" href="/feed.xml" rel="me" target="_blank" title="feed"></a> 
-             
+            <a class="btn-light ico-rss" href="/feed.xml" rel="me" target="_blank" title="feed"></a>
+            
             
         </div>
     </div> -->
@@ -98,7 +107,7 @@
 <script>
     $(document).ready(function () {
         $.fn.fullpage({
-            anchors: ['bio', 'social'],
+            anchors: ['fmain', 'life', 'memory', 'continue'],
             css3: true,
             fixedElements: '.site-notice',
             menu: '#menu',
@@ -107,28 +116,29 @@
             resize: false,
             scrollingSpeed: 500,
 
-            afterLoad: function (anchorLink, index) {
-                if (index === 1) {
-                    $('#section0 .headings, #section0').removeClass('hidden').addClass('fadeInDown');
-                    $('.btn-continue').removeClass('hidden').addClass('bounce');
-                }
-                if (index === 2) {
-                    $('#section1 h1, #section1 .social-links').removeClass('hidden').addClass('fadeInUp');
-                }
-            },
+            // afterLoad: function (anchorLink, index) {
+            //     if (index === 1) {
+            //         $('#section0 .headings, #section0').removeClass('hidden').addClass('fadeInDown');
+            //         $('.btn-continue').removeClass('hidden').addClass('bounce');
+            //     }
+            //     if (index === 2) {
+            //         $('#section1 h1, #section1 .social-links').removeClass('hidden').addClass('fadeInUp');
+            //     }
+            // },
 
-            onLeave: function (index, direction) {
-                if (index == 1 && direction == 'down') {
-                    $('#section0 .headings, #section0 .btn-continue').addClass('hidden').removeClass('bounce fadeInDown fadeInLeft');
-                }
-                if (index == 2 && direction == 'up') {
-                    $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
-                }
-            }
+            // onLeave: function (index, direction) {
+            //     if (index == 1 && direction == 'down') {
+            //         $('#section0 .headings, #section0 .btn-continue').addClass('hidden').removeClass('bounce fadeInDown fadeInLeft');
+            //     }
+            //     if (index == 2 && direction == 'up') {
+            //         $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
+            //     }
+            // }
         });
     });
 
 </script>
+
 
 
 </body>
